@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div id="root">
+      <h1>Paciente</h1>
+      </div>
+      Ingrese texto a descifrar: <input type="text" id="txtInput"/><br><br>
+      Ingrese método de descifrado: <input type="text" id="txtOffset" size="4" /><br><br>
+      <input type="button" id="btnDeCipher" value="Descifrar" onclick="deCode()"/>  
+       <input type="button" id="btnDeCipher" value="Descifrar" onclick="decode()">  
+      <input type="text" size="50" id="txtOutput">
+      <p id="result"></p>
+    </form>
+
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

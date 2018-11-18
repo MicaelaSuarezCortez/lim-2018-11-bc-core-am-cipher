@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <div id="root">
-      <h1>Hola Mundo!</h1>
-    </div>
+    <form>
+      <div id="root">
+      <h1>Bienvenidas(os)</h1>
+      </div>
+      Ingrese texto a cifrar: <input type="text" id="txtInput"/><br><br>
+      Ingrese método de cifrado: <input type="text" id="txtOffset" size="4" /><br><br>
+      <input type="button" id="btnCipher" value="Cifrar" onclick="encode()" />
+      <input type="button" id="btnDeCipher" value="Descifrar" onclick="decode()">
+      <input type="text" size="50" id="txtOutput" >
+      <p id="result"></p>
+    </form>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
