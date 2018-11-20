@@ -1,0 +1,13 @@
+body{
+	background: #cfeaff;
+
+}
+h1{
+	color: #557689;
+	text-align: center;
+}
+input{
+	padding: 1em;
+	margin: 5em 4em 3em 2em;
+	border: 1px solid blue;
+}

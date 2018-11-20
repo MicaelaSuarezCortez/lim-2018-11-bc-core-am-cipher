@@ -10,15 +10,21 @@
       <div id="root">
       <h1>Bienvenidas(os)</h1>
       </div>
-      Ingrese texto a cifrar: <input type="text" id="txtInput"/><br><br>
-      Ingrese método de cifrado: <input type="text" id="txtOffset" size="4" /><br><br>
-      <input type="button" id="btnCipher" value="Cifrar" onclick="encode()" />
-      <input type="button" id="btnDeCipher" value="Descifrar" onclick="decode()">
-      <input type="text" size="50" id="txtOutput" >
-      <p id="result"></p>
-    </form>
-
-    <script src="cipher.js"></script>
+      <form>
+      <div>
+      <label for="txt-input">Ingrese texto a cifrar:</label> 
+      <input type="text" id="txt-input"/>
+      </div>
+      <div>
+      <label for="txt-offset">Ingrese método de cifrado:</label>
+      <input type="text" id="txt-offset" size="4" />
+      </div>
+      <button type="button" id="btn-encode">Cifrar</button>
+      <button type="button" id="btn-decode">Descifrar</button>         
+    </form>     
+      <p>Mensaje cifrado es <span id="result"></span></p>
+      
     <script src="index.js"></script>
+    <script src="cipher.js"></script>  
   </body>
 </html>
