@@ -18,7 +18,21 @@ const encode=(text,offset)=>{
 			// convierto de  ASCII a la letra del alfabeto que conozco
 			let capitalLetter=String.fromCharCode(valueCapitalLetter);	
 			codeCipher+=capitalLetter;	
-		}		
+		}
+		else if(numberCodeAscii>=97 && numberCodeAscii<=122){
+			//Aplico la fórmula para conocer la posición hacia donde me desplazaré LUEGO sumo 97 para pasarlo a ASCII
+			let valueLowerLetter=(numberCodeAscii-97+codeOffset)%26+97;
+			// convierto de  ASCII a la letra del alfabeto que conozco
+			let lowerLetter=String.fromCharCode(valueLowerLetter);	
+			codeCipher+=lowerLetter;	
+
+		}	
+		else if(numberCodeAscii==32){
+			let space=' ';
+			codeCipher+=space;
+			
+		}
+		
 	}
 	return codeCipher;
 }
@@ -45,7 +59,21 @@ const decode=(text,offset)=>{
 			// convierto de  ASCII a la letra del alfabeto que conozco
 			let capitalLetter=String.fromCharCode(valueCapitalLetter);	
 			codeCipher+=capitalLetter;	
-		}		
+		}	
+		//valida si el número ASCII está en minúsculas
+		else if(numberCodeAscii>=97 && numberCodeAscii<=122){
+			//Aplico la fórmula para conocer la posición hacia donde me desplazaré LUEGO sumo 97 para pasarlo a ASCII
+			let valueLowerLetter=(numberCodeAscii-122-codeOffset)%26+122;
+			// convierto de  ASCII a la letra del alfabeto que conozco
+			let lowerLetter=String.fromCharCode(valueLowerLetter);	
+			codeCipher+=lowerLetter;	
+
+		}	
+		else if(numberCodeAscii==32){
+			let space=' ';
+			codeCipher+=space;
+			
+		}	
 	}
 	return codeCipher;
 }

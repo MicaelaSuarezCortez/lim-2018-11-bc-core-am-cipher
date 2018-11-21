@@ -1,4 +1,7 @@
 window.cipher = {
+
+
+	
   // ... 
   /*  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
