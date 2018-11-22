@@ -3,7 +3,7 @@ const textResult=document.getElementById('result');
 const btnEncode=document.getElementById('btn-encode');
 const btnDecode=document.getElementById('btn-decode');
 
-const encode=(text,offset)=>{
+/*const encode=(text,offset)=>{
 
     let codeCipher="";
     let codeOffset=parseInt(offset);
@@ -36,7 +36,7 @@ const encode=(text,offset)=>{
 	}
 	return codeCipher;
 }
-
+*/
  btnEncode.addEventListener('click', () => {
    const textStringInput = document.getElementById('txt-input').value;
    const valueOffset=document.getElementById('txt-offset').value;
@@ -44,7 +44,7 @@ const encode=(text,offset)=>{
  });
 
 
-const decode=(text,offset)=>{
+/*const decode=(text,offset)=>{
 
     let codeCipher="";
     let codeOffset=parseInt(offset);
@@ -67,16 +67,14 @@ const decode=(text,offset)=>{
 			// convierto de  ASCII a la letra del alfabeto que conozco
 			let lowerLetter=String.fromCharCode(valueLowerLetter);	
 			codeCipher+=lowerLetter;	
-
 		}	
 		else if(numberCodeAscii==32){
 			let space=' ';
-			codeCipher+=space;
-			
+			codeCipher+=space;			
 		}	
 	}
 	return codeCipher;
-}
+}*/
 
  btnDecode.addEventListener('click', () => {
    const textStringInput = document.getElementById('txt-input').value;
