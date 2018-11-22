@@ -74,5 +74,3 @@ window.cipher = {
 	encode: encode,
 	decode: decode  
 };
-console.log(cipher.encode);
-console.log(cipher.decode);
