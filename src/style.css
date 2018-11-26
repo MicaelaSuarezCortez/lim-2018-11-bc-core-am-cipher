@@ -11,3 +11,9 @@ input{
 	margin: 5em 4em 3em 2em;
 	border: 1px solid blue;
 }
+
+.table-pacientes th, td{
+	border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
