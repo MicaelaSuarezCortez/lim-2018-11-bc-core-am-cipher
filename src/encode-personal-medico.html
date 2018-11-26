@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <header id="header">
+      <nav id="nav">
+        <ul class="nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Especialidades</a></li>
+          <li><a href="#">Análisis clínicos</a>
+            <ul>
+             <li><a href="resultados-clinicos.html">Personal médico</a></li>
+             <li><a href="decode-paciente.html">Paciente</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      </header>
+      <section>          
+         <p>Siendo nuestra política de seguridad cuidar la privacidad 
+         de nuestros pacientes,se requiere proteger el contenido de este 
+         mensaje antes que sea enviado.</p>          
+      </section>      
+    
+      <form>
+        <h2>Cifrado de exámenes clínicos</h2>
+      <div>
+      <label for="txt-input">Ingrese texto a cifrar:</label> 
+      <input type="text" id="txt-input" placeholder="texto a cifrar" required autofocus="" />
+      </div>
+      <div>
+      <label for="txt-offset">Ingrese método de cifrado:</label>
+      <input type="number" id="txt-offset" size="4"placeholder="offset" required />
+      </div>
+      <button type="button" id="btn-encode">Cifrar</button>
+      <button type="button" id="btn-decode">Descifrar</button> 
+      <p>Mensaje cifrado es: <span id="result"></span></p>  
+      <button type="button"><img src="img/email.png" alt="enviar email" class="img-email">
+        <a href="confirmacion.html">Enviar</a></button>      
+    </form>      
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>  
+  </body>
+</html>

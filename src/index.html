@@ -4,26 +4,44 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">    
   </head>
   <body>
-      <header><h1>Clínica health</h1></header>
+      <header id="header">
+      <nav id="nav">
+        <ul class="nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Especialidades</a></li>
+          <li><a href="#">Análisis clínicos</a>
+            <ul>
+             <li><a href="resultados-clinicos.html">Personal médico</a></li>
+             <li><a href="decode-paciente.html">Paciente</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      </header>
+      <section>
+        <figure>
+          <img src="img/analisis-clinicos.jpg" alt="imagen principal" class="img-main">          
+        </figure>                
+          <h2 class="txt-subtitulo">El mejor estaff médico</h2>
+          <p>Médicos de primer nivel y los tecnólogos médicos más especializados, forman parte del staff de Clínica Health, han sido capacitados en las más modernas aplicaciones que existen en el sector salud.</p>             
+      </section>
       
       </div>
-      <form>
-      <div>
-      <label for="txt-input">Ingrese texto a cifrar:</label> 
-      <input type="text" id="txt-input"/>
-      </div>
-      <div>
-      <label for="txt-offset">Ingrese método de cifrado:</label>
-      <input type="text" id="txt-offset" size="4" />
-      </div>
-      <button type="button" id="btn-encode">Cifrar</button>
-      <button type="button" id="btn-decode">Descifrar</button>         
-    </form> 
-       
-      <p>Mensaje cifrado es <span id="result"></span></p>
+     
+      <footer>
+      <div id="footer">
+        <p>Contacto:</p>
+        <ul>          
+          <li><img src="img/phone.png" alt="phone">Dirección:Av. Arica n° 234 - Surco </li>
+          <li><img src="img/location.png" alt="address">Telefono:975481245</li>
+        </ul>        
+      </div>        
+
+      </footer>
       
     <script src="index.js"></script>
     <script src="cipher.js"></script>  
