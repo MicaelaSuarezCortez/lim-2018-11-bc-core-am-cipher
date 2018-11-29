@@ -1,8 +1,8 @@
 //function for code
 const encode=(text,offset)=>{
 
-    let codeCipher="";
-    let codeOffset=parseInt(offset);
+	let codeCipher="";
+	let codeOffset=parseInt(offset);
 
 	for(let i=0; i<text.length;i++){
 		//get number ASCII		
@@ -39,8 +39,8 @@ const encode=(text,offset)=>{
 //function for decipher
 const decode=(text,offset)=>{
 
-    let codeCipher="";
-    let codeOffset=parseInt(offset);
+	let codeCipher="";
+	let codeOffset=parseInt(offset);
 
 	for(let i=0; i<text.length;i++){
 		//get number ASCII		

@@ -1,120 +1,108 @@
 body{
 	background: #fff;
-
 }
+
 *{
 	padding:0px;
 	margin: 0px;
 }
-header, section, footer, nav, article, figure, figcaption { display: block; } 
- 
 
-#header{
-	margin: auto;
-	width: 500px;
-	font-family: Arial, Helvetica, sans-serif;
+.content{
+	width: 100%;
+	font-family: "Times New Roman", Times, serif;
 
 }
-
-#nav{
-	margin: 20px;
-	padding-bottom: 40px;
+.main{
+	padding: 20px;	
+	box-sizing: border-box;
 }
-ul{
+.main img{
+	width: 100%;
+	height: auto;
+}
+.main p{
+	text-align: justify;
+	padding: 20px;
+	font-size: 17px;
+}
+.main h2{
+	text-align: center;
+}
+
+header{
+	width: 100%;
+	background-color: #02547D;
+	padding: 0px;
+	font-size: 18px;
+}
+
+.menu ul{
+	display: flex;
 	list-style: none;
-}
-.nav li a{
-	background-color: #cde8fb;
-	color:#000;	
-	text-decoration: none;
-	padding: 10px 15px;	
-	display: block;
+	justify-content: center;
 
 }
-.nav li a:hover{
-	background-color: #58b95c4a;
-}
-.nav>li{
-	float: left;
-}
 
-.nav li ul{
-	display: none;
-	position: absolute;<!-- esta conforme a las dimensiones del menu, sino crecería más el menú-->
-	min-width: 140px;
-}
-.nav li:hover>ul{
-	display: block;
-}
-.nav li ul li{
-	position: relative; <!-- poner los submenu al lado-->
-	right: 140px;
-	top: 0px;
-}
-/*imagen principal home*/
-.img-main{
-	display: block;	
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-}
-
-h2{
-	text-align: center;
-	color: #2196F3;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-/*staff institucional*/
-.txt-subtitulo {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-
-} 
-section p{
-	text-align: center;	
-	padding-left: 200px;
-	padding-right: 200px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #565d5d;
-}
-/*formulario*/
-form
-{   
-   padding:5px;   
-   display:block;
-   width:300px;
-   margin:auto;
-   text-align:left;
-   color: ;
-
-}
-form div input{
-	color: blue;	
-}
-form div{
+.menu li a{
+	display: block; /*para poder darle padding*/
 	padding: 10px;	
+	color: white;
+	text-decoration: none;
+
 }
- #footer{
- 	background-color: #85C0EB; 
+
+.menu li:hover{
+	background-color: #02BEC4;
+	
+}
+
+
+@media (max-width: 535px){
+	.menu ul{
+		flex-direction: column;
+	}
+}
+form
+{      
+   padding:4px;  
+   display:block;
+   width:290px;
+   margin:auto;
+   text-align:left;   
+}
+/*Para el formulario*/
+form h2, label, input, button, p{
+	 padding:5px; 
+	 margin: 15px;
+}
+
+.footer{
+ 	background-color: #A9E8DC; 		 
+ 	width: 100%;  
+ 	margin-top: 74px;
+
+ 	/*position: fixed;	*/
  }
 
-#footer img{
+.footer ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.footer li {
+	display: block; /*para poder darle padding*/
+	padding: 10px;	
+	color: black;
+	text-decoration: none;
+}
+
+.footer img{
 	max-width: 15px;
 }
 .img-email{
 	max-width: 15px;
 }
 
-input{
-	padding: 1em;
-	margin: 5em 4em 3em 2em;
-	border: 1px solid blue;
-}
 
-.table-pacientes th, td{
-	border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #dddddd;
-}
+
