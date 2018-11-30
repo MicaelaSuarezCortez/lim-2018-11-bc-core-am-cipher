@@ -31,6 +31,9 @@ La interfaz permite al usuario:
   Antes de aplicar los estilos con css definí la paleta de colores así como la tipografía. 
 	
   Para elegir la paleta de colores tomé en consideración aspectos de la psicología del color, donde el color azul se asocia a la confianza, seguridad y calma, mientras que el color blanco se asocia a la pureza, limpieza y sinceridad por lo que es bueno para páginas web relacionada a la industria de salud.
+
+  ![Sin titulo](src/img/paleta-colores.jpg)
+
   Finalmente se aplicó @media query para adaptar el tamaño de la página a dispositivos móviles. 
     
 
@@ -39,14 +42,14 @@ La aplicación cuenta con un menú de navegación siendo la sección de "Anális
 
 De igual manera hay una sección en el menú para los pacientes "Análisis clínicos: paciente" donde el paciente debe ingresar la clave y su respectivo offset enviado a su email por el personal médico y de esa forma ver el resultado de su análisis clínico.
 
-####¿Quiénes son los principales usuarios del producto?
+#### ¿Quiénes son los principales usuarios del producto?
 	 Pacientes de clínicas, centros de salud, laboratorios clínicos.
 
-####¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+#### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 	 Por el lado del personal médico es proteger la información médica del paciente, y brindar mejor servicio.
 	 Por el lado del paciente es aumentar la confianza respecto a la seguridad de su información médica.
 
-####¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+#### ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 	El producto creado atiende la necesidad y al derecho fundamental que toda persona posee acerca de mantener la condifencialidad de su información médica. Por otro lado también trae beneficios para mejorar la calidad de servicio de atención en los establecimientos de salud públicos o privados ya que el paciente tendrá acceso a su información evitando gastos de transporte para recoger el resultado de su análisis clínico.  
 
  

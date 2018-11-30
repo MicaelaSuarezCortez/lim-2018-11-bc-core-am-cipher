@@ -1,5 +1,5 @@
 //function for code
-const encode=(text,offset)=>{
+const encode=(offset,text)=>{
 
 	let codeCipher="";
 	let codeOffset=parseInt(offset);
@@ -22,21 +22,19 @@ const encode=(text,offset)=>{
 			let valueLowerLetter=(numberCodeAscii-97+codeOffset)%26+97;
 			// I convert from ASCII code to the letter of the alphabet that I know.
 			let lowerLetter=String.fromCharCode(valueLowerLetter);	
-			codeCipher+=lowerLetter;	
-
+			codeCipher+=lowerLetter;
 		}	
 		//Validate blanks
 		else if(numberCodeAscii==32){
 			let space=' ';
 			codeCipher+=space;			
-		}
-		
+		}	
 	}
 	return codeCipher;
 }
 
 //function for decipher
-const decode=(text,offset)=>{
+const decode=(offset,text)=>{
 
 	let codeCipher="";
 	let codeOffset=parseInt(offset);
@@ -64,7 +62,7 @@ const decode=(text,offset)=>{
 		else if(numberCodeAscii==32){
 			let space=' ';
 			codeCipher+=space;			
-		}	
+		}				
 	}
 	return codeCipher;
 }
