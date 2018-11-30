@@ -1,6 +1,3 @@
-#Título del Proyecto: cipherhealth. 
- La aplicación tiene por finalidad proporcionar al paciente un nivel adicional de seguridad para acceder a la información consignada en sus resultados médicos -aplicando el "Cifrado César"-los cuales son enviados a su email.
-
 ## Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -31,11 +28,8 @@ La interfaz permite al usuario:
 #### Sobre proceso y decisiones de diseño.
   El proceso creativo inició haciendo los wireframe con papel y lápiz plasmando la distribución de los elementos para la interfaz, y previniendo cómo el usuario interactuaría. Luego se pidió a 3 personas que revisen los wireframes de la aplicación para conocer qué tan intuitivo y amigable les parecía.Con el feedback recibido se encontraron aspectos donde los wireframe fallaban.
   Como siguiente paso fue maquetar los wireframe con html.
-  Antes de aplicar los estilos con css definí la paleta de colores así como la tipografía.
-
-  ![Paleta de colores](src/img/paleta-colores.png)
-  
-
+  Antes de aplicar los estilos con css definí la paleta de colores así como la tipografía. 
+	![Paleta de colores](img/paleta-colores.png)
   Para elegir la paleta de colores tomé en consideración aspectos de la psicología del color, donde el color azul se asocia a la confianza, seguridad y calma, mientras que el color blanco se asocia a la pureza, limpieza y sinceridad por lo que es bueno para páginas web relacionada a la industria de salud.
   Finalmente se aplicó @media query para adaptar el tamaño de la página a dispositivos móviles. 
     
@@ -45,13 +39,13 @@ La aplicación cuenta con un menú de navegación siendo la sección de "Anális
 
 De igual manera hay una sección en el menú para los pacientes "Análisis clínicos: paciente" donde el paciente debe ingresar la clave y su respectivo offset enviado a su email por el personal médico y de esa forma ver el resultado de su análisis clínico.
 
-#####¿Quiénes son los principales usuarios del producto?
+####¿Quiénes son los principales usuarios del producto?
 	 Pacientes de clínicas, centros de salud, laboratorios clínicos.
-#####¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+####¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 	 Por el lado del personal médico es proteger la información médica del paciente, y brindar mejor servicio.
 	 Por el lado del paciente es aumentar la confianza respecto a la seguridad de su información médica.
 
-#####¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+####¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 
 El producto creado atiende la necesidad y al derecho fundamental que toda persona posee acerca de mantener la condifencialidad de su información médica. Por otro lado también trae beneficios para mejorar la calidad de servicio de atención en los establecimientos de salud públicos o privados ya que el paciente tendrá acceso a su información evitando gastos de transporte para recoger el resultado de su análisis clínico.  
 
