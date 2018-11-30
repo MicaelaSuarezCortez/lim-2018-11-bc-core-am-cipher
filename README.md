@@ -29,7 +29,7 @@ La interfaz permite al usuario:
   El proceso creativo inició haciendo los wireframe con papel y lápiz plasmando la distribución de los elementos para la interfaz, y previniendo cómo el usuario interactuaría. Luego se pidió a 3 personas que revisen los wireframes de la aplicación para conocer qué tan intuitivo y amigable les parecía.Con el feedback recibido se encontraron aspectos donde los wireframe fallaban.
   Como siguiente paso fue maquetar los wireframe con html.
   Antes de aplicar los estilos con css definí la paleta de colores así como la tipografía. 
-	![Paleta de colores](img/paleta-colores.png)
+	
   Para elegir la paleta de colores tomé en consideración aspectos de la psicología del color, donde el color azul se asocia a la confianza, seguridad y calma, mientras que el color blanco se asocia a la pureza, limpieza y sinceridad por lo que es bueno para páginas web relacionada a la industria de salud.
   Finalmente se aplicó @media query para adaptar el tamaño de la página a dispositivos móviles. 
     
@@ -41,13 +41,13 @@ De igual manera hay una sección en el menú para los pacientes "Análisis clín
 
 ####¿Quiénes son los principales usuarios del producto?
 	 Pacientes de clínicas, centros de salud, laboratorios clínicos.
+
 ####¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 	 Por el lado del personal médico es proteger la información médica del paciente, y brindar mejor servicio.
 	 Por el lado del paciente es aumentar la confianza respecto a la seguridad de su información médica.
 
 ####¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
-
-El producto creado atiende la necesidad y al derecho fundamental que toda persona posee acerca de mantener la condifencialidad de su información médica. Por otro lado también trae beneficios para mejorar la calidad de servicio de atención en los establecimientos de salud públicos o privados ya que el paciente tendrá acceso a su información evitando gastos de transporte para recoger el resultado de su análisis clínico.  
+	El producto creado atiende la necesidad y al derecho fundamental que toda persona posee acerca de mantener la condifencialidad de su información médica. Por otro lado también trae beneficios para mejorar la calidad de servicio de atención en los establecimientos de salud públicos o privados ya que el paciente tendrá acceso a su información evitando gastos de transporte para recoger el resultado de su análisis clínico.  
 
  
 
