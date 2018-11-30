@@ -33,7 +33,8 @@ La interfaz permite al usuario:
   Como siguiente paso fue maquetar los wireframe con html.
   Antes de aplicar los estilos con css definí la paleta de colores así como la tipografía.
 
-  ![Con titulo](img/paleta-colores.PNG "Paleta de colores")
+  ![Paleta de colores](src/img/paleta-colores.png)
+  
 
   Para elegir la paleta de colores tomé en consideración aspectos de la psicología del color, donde el color azul se asocia a la confianza, seguridad y calma, mientras que el color blanco se asocia a la pureza, limpieza y sinceridad por lo que es bueno para páginas web relacionada a la industria de salud.
   Finalmente se aplicó @media query para adaptar el tamaño de la página a dispositivos móviles. 
