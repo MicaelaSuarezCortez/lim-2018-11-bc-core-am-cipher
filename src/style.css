@@ -10,7 +10,6 @@ body{
 .content{
 	width: 100%;
 	font-family: "Times New Roman", Times, serif;
-
 }
 .main{
 	padding: 20px;	
@@ -21,12 +20,17 @@ body{
 	height: auto;
 }
 .main p{
-	text-align: justify;
+	text-align: center;
 	padding: 20px;
 	font-size: 17px;
 }
 .main h2{
 	text-align: center;
+	margin:20px;
+	color: #003e73;
+}
+.main span{
+	font-weight: bold;	
 }
 
 header{
@@ -44,16 +48,14 @@ header{
 }
 
 .menu li a{
-	display: block; /*para poder darle padding*/
+	display: block; /*with this I can give padding*/
 	padding: 10px;	
 	color: white;
 	text-decoration: none;
-
 }
 
 .menu li:hover{
-	background-color: #02BEC4;
-	
+	background-color: #003e73;	
 }
 
 
@@ -62,26 +64,31 @@ header{
 		flex-direction: column;
 	}
 }
+
 form
 {      
-   padding:4px;  
    display:block;
    width:290px;
    margin:auto;
    text-align:left;   
 }
-/*Para el formulario*/
+/*For the form*/
 form h2, label, input, button, p{
 	 padding:5px; 
-	 margin: 15px;
+	 margin: 10px;
 }
 
+form button{
+	border-radius: 5px;
+}
+form h2{
+	color: #003e73;
+
+}
 .footer{
  	background-color: #A9E8DC; 		 
  	width: 100%;  
- 	margin-top: 74px;
-
- 	/*position: fixed;	*/
+ 	margin-top: 76px; 	
  }
 
 .footer ul{
@@ -91,18 +98,14 @@ form h2, label, input, button, p{
 }
 
 .footer li {
-	display: block; /*para poder darle padding*/
-	padding: 10px;	
+	display: block; /*with this I can give padding*/
+	padding: 18px;	
 	color: black;
 	text-decoration: none;
 }
 
-.footer img{
-	max-width: 15px;
-}
-.img-email{
-	max-width: 15px;
-}
+
+
 
 
 

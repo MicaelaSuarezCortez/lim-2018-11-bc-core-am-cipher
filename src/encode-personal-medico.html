@@ -20,9 +20,11 @@
         </nav>
       </header>
      <section class="main">          
-         <p>Siendo nuestra política de seguridad cuidar la privacidad de nuestros pacientes,se requiere proteger el contenido de este mensaje antes que sea enviado.</p>          
+         <p>Siendo nuestra política de seguridad cuidar la privacidad de nuestros pacientes,se requiere proteger el contenido de este mensaje antes que sea enviado.</p>
+         <p><span>En ingrese texto a cifrar:</span> puede ingresar texto en mayúsculas y minúsculas con espaciado.
+         <span>En Ingrese método de cifrado:</span> debe indicar el número de desplazamiento de las letras del texto ingresado.Luego haga click en cifrar y se generará un código, finalmente haga click en el botón enviar para entregar la información al paciente.</p>       
       </section>     
-      <form>
+      <form action="confirmacion.html">
         <h2>Cifrado de análisis clínicos</h2>
         <div>
           <label for="txt-input">Ingrese texto a cifrar:</label> 
@@ -30,17 +32,18 @@
         </div>
         <div>
           <label for="txt-offset">Ingrese método de cifrado:</label>
-          <input type="number" id="txt-offset" size="4" placeholder="offset">
+          <input type="number" id="txt-offset" size="4" placeholder="método de cifrado">
         </div>
           <button type="button" id="btn-encode">Cifrar</button>
           <button type="button" id="btn-decode" disabled="disabled">Descifrar</button> 
-          <p>Su código es: <span id="result"></span></p>
+          <p>Código creado: <span id="result"></span></p>
+          <button type="submit" id="btn-send"><img src="img/email.png" alt="email"> Enviar</button>
       </form> 
     <footer>
       <div class="footer">
         <ul>          
-          <li><img src="img/phone.png" alt="phone">Dirección:Av. Arica n° 234 - Surco</li>
-          <li><img src="img/location.png" alt="address">Telefono:999-999999</li>
+          <li><img src="img/location.png" alt="phone">Dirección:Av. Arica n° 234 - Surco</li>
+          <li><img src="img/phone.png" alt="address">Teléfono:999-999999</li>
         </ul>        
       </div>     
     </footer>       

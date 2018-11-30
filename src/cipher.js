@@ -28,8 +28,7 @@ const encode=(text,offset)=>{
 		//Validate blanks
 		else if(numberCodeAscii==32){
 			let space=' ';
-			codeCipher+=space;
-			
+			codeCipher+=space;			
 		}
 		
 	}
@@ -69,7 +68,6 @@ const decode=(text,offset)=>{
 	}
 	return codeCipher;
 }
-
 window.cipher = {
 	encode: encode,
 	decode: decode  

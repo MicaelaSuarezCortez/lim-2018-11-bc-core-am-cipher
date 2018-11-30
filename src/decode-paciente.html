@@ -20,29 +20,30 @@
         </nav>
       </header>
      <section class="main">          
-         <p>Estimado paciente ingrese la información que le envió el personal médico a su email para visualizar el resultado de su análisis clínico. </p>   
+         <p>Estimado paciente ingrese la información que le envió el personal médico a su email para ver el resultado de su análisis clínico. </p>   
       </section>     
     
       <form>
         <h2>Descifrado de análisis clínicos</h2>
         <div>
-          <label for="txt-input">Ingrese texto a descifrar:</label> 
-          <input type="text" id="txt-input" placeholder="texto a descifrar" autofocus="">
+          <label for="txt-input">Ingrese código a descifrar:</label> 
+          <input type="text" id="txt-input" placeholder="código a descifrar" autofocus="">
         </div>
         <div>
           <label for="txt-offset">Ingrese método de descifrado:</label>
-          <input type="number" id="txt-offset" size="4" placeholder="offset">
+          <input type="number" id="txt-offset" size="4" placeholder="método de cifrado">
         </div>
           <button type="button" id="btn-encode" disabled="disabled">Cifrar</button>
           <button type="button" id="btn-decode">Descifrar</button> 
-          <p>Su código es: <span id="result"></span></p>  
+          <p>Código descifrado: <span id="result"></span></p>  
+          <button type="button" disabled="true">Ver resultado</button>
           
       </form> 
     <footer>
       <div class="footer">
         <ul>          
-          <li><img src="img/phone.png" alt="phone">Dirección:Av. Arica n° 234 - Surco</li>
-          <li><img src="img/location.png" alt="address">Telefono:999-999999</li>
+          <li><img src="img/location.png" alt="phone">Dirección:Av. Arica n° 234 - Surco</li>
+          <li><img src="img/phone.png" alt="address">Teléfono:999-999999</li>
         </ul>        
       </div>     
     </footer>       
