@@ -6,13 +6,14 @@ const btnDecode=document.getElementById('btn-decode');
 btnEncode.addEventListener('click', () => {
    const valueOffset=document.getElementById('txt-offset').value;
    const textStringInput = document.getElementById('txt-input').value;   
-   textResult.innerHTML = cipher.encode(valueOffset,textStringInput);
+   textResult.innerHTML = cipher.encode(valueOffset,textStringInput);   
 });
 
 btnDecode.addEventListener('click', () => {
    const valueOffset=document.getElementById('txt-offset').value;
-   const textStringInput = document.getElementById('txt-input').value;   
+   const textStringInput = document.getElementById('txt-input').value;    
    textResult.innerHTML = cipher.decode(valueOffset,textStringInput);
+   document.getElementById('btn-result').disabled=false;   
 });
 
 

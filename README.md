@@ -43,7 +43,7 @@ La aplicación cuenta con un menú de navegación siendo la sección de "Anális
 De igual manera hay una sección en el menú para los pacientes "Análisis clínicos: paciente" donde el paciente debe ingresar la clave y su respectivo offset enviado a su email por el personal médico y de esa forma ver el resultado de su análisis clínico.
 
 #### ¿Quiénes son los principales usuarios del producto?
-	 Pacientes de clínicas, centros de salud, laboratorios clínicos.
+     Pacientes de clínicas, centros de salud, laboratorios clínicos.
 
 #### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 	 Por el lado del personal médico es proteger la información médica del paciente, y brindar mejor servicio.
