@@ -23,7 +23,7 @@
          <p>Estimado paciente ingrese la información que le envió el personal médico a su email para ver el resultado de su análisis clínico. </p>   
       </section>     
     
-      <form>
+      <form action="resultAnalitycs.html">
         <h2>Descifrado de análisis clínicos</h2>
         <div>
           <label for="txt-input">Ingrese código a descifrar:</label> 
@@ -36,8 +36,7 @@
           <button type="button" id="btn-encode" disabled="disabled">Cifrar</button>
           <button type="button" id="btn-decode">Descifrar</button> 
           <p>Código descifrado: <span id="result"></span></p>  
-          <button type="button" disabled="true">Ver resultado</button>
-          
+          <button type="submit" id="btn-result" disabled="disabled">Ver Resultado</button>        
       </form> 
     <footer>
       <div class="footer">

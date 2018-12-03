@@ -24,10 +24,10 @@ body{
 	padding: 20px;
 	font-size: 17px;
 }
-.main h2{
+.main h2, h1{
 	text-align: center;
 	margin:20px;
-	color: #003e73;
+	color: #512da8;
 }
 .main span{
 	font-weight: bold;	
@@ -58,13 +58,6 @@ header{
 	background-color: #003e73;	
 }
 
-
-@media (max-width: 535px){
-	.menu ul{
-		flex-direction: column;
-	}
-}
-
 form
 {      
    display:block;
@@ -82,7 +75,7 @@ form button{
 	border-radius: 5px;
 }
 form h2{
-	color: #003e73;
+	color: #512da8;
 
 }
 .footer{
@@ -104,6 +97,16 @@ form h2{
 	text-decoration: none;
 }
 
+#btn-result{
+	border-color: #9c27b0;
+}
+
+
+@media (max-width: 535px){
+	.menu ul{
+		flex-direction: column;
+	}
+}
 
 
 
